@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: aqua;
+  width: 10vw;
+  font-family: "Fira Sans", sans-serif;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 24px;
+  padding: 33px 0;
+}
+.main {
+  background-color: bisque;
+  width: 90vw;
+  font-family: "Fira Sans", sans-serif;
+}
