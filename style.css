@@ -56,6 +56,17 @@
   margin-top: 30px;
 }
 .buttons button {
+  padding: 9px;
+  margin: 0 4px;
+  border-radius: 22px;
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: teal;
+  background-color: white;
 }
 
 .devInfo {
