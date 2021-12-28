@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
   display: flex;
 }
 .sidebar {
-  background-color: aqua;
+  background-color: rgb(196, 192, 192);
   width: 10vw;
   font-family: "Fira Sans", sans-serif;
   height: 100vh;
@@ -25,4 +26,44 @@
   background-color: bisque;
   width: 90vw;
   font-family: "Fira Sans", sans-serif;
+}
+
+.info-container {
+  background-color: blueviolet;
+  height: 58vh;
+  width: 80vw;
+  margin: 93px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hello {
+  font-size: 65px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.moreabout {
+  font-size: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+.buttons {
+  margin-top: 30px;
+}
+.buttons button {
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+.devPic img {
+  height: 58vh;
 }
